@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/biblio56/public_html/
+    - export DEPLOYPATH=/home3/biblio56/repositories/front-end-biblioteca-pontificia
     - /bin/cp * $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH
