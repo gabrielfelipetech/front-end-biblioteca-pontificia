@@ -3,4 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/biblio56/public_html/
     - /bin/cp * $DEPLOYPATH
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH                         #copy all from root 
+    - /bin cp /biblioteca-pontificia/* $DEPLOYPATH              #copy all from sub folder root
+    - /bin cp -r /biblioteca-pontificia/* $DEPLOYPATH              #copy all from sub folder root
+    - /bin/cp -r * $DEPLOYPATH                        #copy all recursively to $DEPLOYPATH
