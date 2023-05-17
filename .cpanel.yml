@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/biblio56/
+    - export DEPLOYPATH=/home/biblio56/biblioteca-pontificia
     - /bin/cp * $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH                         #copy all from root 
     - /bin cp /biblioteca-pontificia/* $DEPLOYPATH              #copy all from sub folder root
