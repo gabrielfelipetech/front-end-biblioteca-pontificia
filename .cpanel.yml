@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/biblio56/public_html
+    - export DEPLOYPATH=/home/biblio56/public_html/
     - /bin/cp * $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH
