@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/biblio56/public_html/front-end-biblioteca-pontificia/
+    - export DEPLOYPATH=/home/biblio56/public_html/front-end-biblioteca-pontificia
     - /bin/cp .vscode $DEPLOYPATH
     - /bin/cp * $DEPLOYPATH
     - /bin cp * $DEPLOYPATH
