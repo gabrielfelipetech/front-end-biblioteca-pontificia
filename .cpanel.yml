@@ -1,6 +1,28 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/biblio56/repositories/front-end-biblioteca-pontificia
-    - /bin/cp * $DEPLOYPATH
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/biblio56/public_html
+    - /bin/cp .vscode $DEPLOYPATH
+    - /bin/cp cypress $DEPLOYPATH
+    - /bin/cp dist $DEPLOYPATH
+    - /bin/cp node_modules $DEPLOYPATH
+    - /bin/cp public $DEPLOYPATH
+    - /bin/cp src $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp .eslintrc.cjs $DEPLOYPATH
+    - /bin/cp .gitignore $DEPLOYPATH
+    - /bin/cp .prettierrc.json $DEPLOYPATH
+    - /bin/cp .prettierrc.json $DEPLOYPATH
+    - /bin/cp cypress.config.ts $DEPLOYPATH
+    - /bin/cp env.d.ts $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp tsconfig.app.json $DEPLOYPATH
+    - /bin/cp tsconfig.json $DEPLOYPATH
+    - /bin/cp tsconfig.node.json $DEPLOYPATH
+    - /bin/cp tsconfig.vitest.json $DEPLOYPATH
+    - /bin/cp vite.config.ts $DEPLOYPATH
+    - /bin/cp vitest.config.ts $DEPLOYPATH
